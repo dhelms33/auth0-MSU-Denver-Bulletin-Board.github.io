@@ -1,39 +1,61 @@
-# Auth0 JavaScript Samples
+# Senior Project: Real-Time Bulletin Board
 
-This repository holds the quickstart samples using [auth0-spa-js](https://github.com/auth0/auth0-spa-js).
+## Overview
 
-Read the [full tutorials on Auth0.com](https://auth0.com/docs/quickstart/spa/vanillajs).
+Welcome to our senior project repository! This project aims to create a website using GitHub Pages, HTML, auth0 and JavaScript to facilitate real-time updates from teachers that will be displayed on a bulletin board in the MSU Denver Aerospace and Engineering Sciences 2nd floor hallway. We are using Anthias to display our website on the bulletin board. 
 
-[![CircleCI](https://circleci.com/gh/auth0-samples/auth0-javascript-samples.svg?style=svg)](https://circleci.com/gh/auth0-samples/auth0-javascript-samples)
+## Features
 
-### Index
+- **Real-Time Updates:** Utilizing JavaScript and Firebase, the platform allows teachers to post real-time updates that students can instantly view.
+- **File Uploads:** Teachers can upload and share files, documents, and other resources with their classes, enhancing the learning experience.
+- **Secure Authentication:** User authentication ensures that only authorized teachers can access and manage the platform's content.
 
-List of available quickstarts
+## Technologies Used
 
-- [01 - Login](/01-Login/)
-- [02 - Calling an API](/02-Calling-an-API/)
+- **GitHub Pages:** Hosts the static website, making it accessible to users without the need for a dedicated server.
+- **HTML:** Provides the structure and layout of the website.
+- **JavaScript:** Enables dynamic and interactive features on the client side.
+- **Firebase:** Powers real-time updates and file uploads, ensuring a seamless and secure experience.
 
-## What is Auth0?
+## Project Structure
 
-Auth0 helps you to:
+The project follows a modular structure, with separate files for HTML, JavaScript, and potentially CSS. Key directories include:
 
-- Add authentication with [multiple authentication sources](https://docs.auth0.com/identityproviders), either social like **Google, Facebook, Microsoft Account, LinkedIn, GitHub, Twitter, Box, Salesforce, among others**, or enterprise identity systems like **Windows Azure AD, Google Apps, Active Directory, ADFS or any SAML Identity Provider**.
-- Add authentication through more traditional **[username/password databases](https://docs.auth0.com/mysql-connection-tutorial)**.
-- Add support for **[linking different user accounts](https://docs.auth0.com/link-accounts)** with the same user.
-- Support for generating signed [Json Web Tokens](https://docs.auth0.com/jwt) to call your APIs and **flow the user identity** securely.
-- Analytics of how, when and where users are logging in.
-- Pull data from other sources and add it to the user profile, through [JavaScript rules](https://docs.auth0.com/rules).
+- `docs`: GitHub Pages source files.
+- `src`: Source code for HTML, JavaScript, and CSS.
+  - `assets`: Store images, logos, or other media files.
+  - `js`: Contains JavaScript files for different functionalities.
+  - `styles`: Houses CSS stylesheets.
 
-## Create a free Auth0 account
+## Getting Started
 
-1. Go to [Auth0](https://auth0.com/signup) and click Sign Up.
-2. Use Google, GitHub or Microsoft Account to login.
+Follow these steps to get the project running on your local machine:
 
-## Issue Reporting
+1. Clone the repository:
 
-If you have found a bug or if you have a feature request, please report them at this repository issues section. Please do not report security vulnerabilities on the public GitHub issue tracker. The [Responsible Disclosure Program](https://auth0.com/whitehat) details the procedure for disclosing security issues.
+   ```bash
+   git clone https://github.com/your-username/senior-project.git
+        a) Open the docs/index.html file in your web browser.
+        b) Start exploring and testing the real-time updates and file uploads features.
 
-## Author
+
+## Contributing
+
+We welcome contributions to enhance and improve our platform. If you have ideas, bug fixes, or new features to propose, please follow our contribution guidelines outlined in [CONTRIBUTING.md](CONTRIBUTING.md).
+
+## License
+
+This project is licensed under the [MIT License](LICENSE), which means you are free to use, modify, and distribute the code as long as you include the original copyright and license notice.
+
+## Acknowledgments
+
+We would like to express our gratitude to everyone who contributed to the project and supported us throughout our senior project journey.
+
+Thank you for exploring our real-time classroom updates platform! Feel free to reach out if you have any questions or feedback.
+
+## Authors
+
+MSU Denver Senior Project Design Team
 
 [Auth0](auth0.com)
 
